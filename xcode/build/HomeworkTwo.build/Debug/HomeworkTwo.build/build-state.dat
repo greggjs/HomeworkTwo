@@ -5,11 +5,9 @@ cCheck dependencies
 cProcessInfoPlistFile "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/Debug/HomeworkTwo.app/Contents/Info.plist" Info.plist
 cCpResource CinderApp.icns ./build/Debug/HomeworkTwo.app/Contents/Resources/CinderApp.icns
 cProcessPCH++ /var/folders/k8/b059wlxn3w94b77d027mpg6r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HomeworkTwo_Prefix-guqdoxqtuzpbksbgebijupphpifz/HomeworkTwo_Prefix.pch.pth HomeworkTwo_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/HomeworkTwoApp.o "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/HomeworkTwoApp.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/Shape.o "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/Shape.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/ShapeList.o "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/ShapeList.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cLd "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/Debug/HomeworkTwo.app/Contents/MacOS/HomeworkTwo" normal i386
-cTouch "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/Debug/HomeworkTwo.app"
+cCompileC ./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/Shape.o "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/../src/Shape.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/HomeworkTwoApp.o "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/../src/HomeworkTwoApp.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/ShapeList.o "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/../src/ShapeList.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
 c000000004F90F72900000000000000CC
@@ -5441,8 +5439,23 @@ c000000004FADAEF30000000000005E55
 t1336782579
 s24149
 
+N/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/../src/HomeworkTwoApp.cpp
+c000000005058A553000000000000034C
+t1347986771
+s844
+
+N/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/../src/Shape.cpp
+c000000005058A99500000000000002BC
+t1347987861
+s700
+
+N/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/../src/ShapeList.cpp
+c00000000505886670000000000000160
+t1347978855
+s352
+
 N/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/Debug/HomeworkTwo.app
-t1347986612
+t1347986777
 s102
 
 N/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/Debug/HomeworkTwo.app/Contents/Info.plist
@@ -5450,8 +5463,8 @@ t1347978860
 s1231
 
 N/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/Debug/HomeworkTwo.app/Contents/MacOS/HomeworkTwo
-t1347986612
-s7815172
+t1347986776
+s7815200
 
 N/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/Debug/HomeworkTwo.app/Contents/PkgInfo
 t1347978860
@@ -5466,17 +5479,45 @@ c000000005058866B00000000000001AB
 t1347978859
 s427
 
+N/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/HomeworkTwoApp-9205746ACDB4F03D.o
+t2
+s0
+
+N/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/HomeworkTwoApp-FFC2759F1CB6CB42.o
+t2
+s0
+
 N/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/HomeworkTwoApp.o
 t2
 s0
 
+N/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/Node.o
+t2
+s0
+
+N/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/Shape-56106DBC59757045.o
+t2
+s0
+
+N/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/Shape-7843D4C94E2EDB43.o
+t2
+s0
+
 N/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/Shape.o
-t1347986756
+t1347988060
 s116552
 
+N/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/ShapeList-CE91CCE68AED8046.o
+t2
+s0
+
+N/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/ShapeList-F0C533F37FA6EB44.o
+t2
+s0
+
 N/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/ShapeList.o
-t1347978875
-s50264
+t1347988059
+s65148
 
 N/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/CinderApp.icns
 c000000005058816E000000000001BEB5
@@ -5484,9 +5525,9 @@ t1347977582
 s114357
 
 N/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/HomeworkTwoApp.cpp
-c000000005058A553000000000000034C
-t1347986771
-s844
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/HomeworkTwo_Prefix.pch
 c000000005058816E0000000000000093
@@ -5494,25 +5535,30 @@ t1347977582
 s147
 i<Cocoa/Cocoa.h>
 
+N/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/Node.cpp
+c000000005058A6F10000000000000062
+t1347987185
+s98
+
 N/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/Shape.cpp
-c000000005058A50E00000000000002BC
-t1347986702
-s700
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/Shape.h
-c000000005058A50C0000000000000200
-t1347986700
-s512
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/ShapeList.cpp
-c00000000505886670000000000000160
-t1347978855
-s352
+c00000000000000000000000000000000
+t2
+s0
 
 N/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/ShapeList.h
-c000000005058863E0000000000000102
-t1347978814
-s258
+c00000000000000000000000000000000
+t2
+s0
 
 N/var/folders/k8/b059wlxn3w94b77d027mpg6r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HomeworkTwo_Prefix-guqdoxqtuzpbksbgebijupphpifz/HomeworkTwo_Prefix.pch.pth
 t1347978862
@@ -5523,7 +5569,19 @@ c000000005058816E0000000000000351
 t1347977582
 s849
 
+CBuild AST from "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/../src/HomeworkTwoApp.cpp"
+r0
+
+CBuild AST from "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/../src/Shape.cpp"
+r0
+
+CBuild AST from "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/../src/ShapeList.cpp"
+r0
+
 CBuild AST from "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/HomeworkTwoApp.cpp"
+r0
+
+CBuild AST from "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/Node.cpp"
 r0
 
 CBuild AST from "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/Shape.cpp"
@@ -5534,12 +5592,57 @@ r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies57ec5fd3dc08b641^338d66d3dc08b641^---0#1#0#--18"Check dependencies36"382F8672-F461-4EF7-A800-2562981409DB-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesba4d0894e208b641^fb948b94e208b641^---0#1#0#--18"Check dependencies36"4C310C9E-09D2-4593-8FFF-D4D3EFF6D417-
+
+CCompileC ./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/HomeworkTwoApp-9205746ACDB4F03D.o "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/../src/HomeworkTwoApp.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/HomeworkTwoApp-FFC2759F1CB6CB42.o "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/HomeworkTwoApp.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/HomeworkTwoApp.o "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/../src/HomeworkTwoApp.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s369681044.698742
+e369681054.540278
+r0
+xCompileC
+x./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/HomeworkTwoApp.o
+x/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/../src/HomeworkTwoApp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/../src/HomeworkTwoApp.cpp:8:
+oIn file included from /Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/../include/ShapeList.h:3:
+o/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/../include/Shape.h:13:7: error: redefinition of 'Shape'
+oclass Shape {
+o      ^
+o/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/../include/Shape.h:13:7: note: previous definition is here
+oclass Shape {
+o      ^
+oIn file included from /Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/../src/HomeworkTwoApp.cpp:8:
+oIn file included from /Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/../include/ShapeList.h:3:
+o/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/../include/Shape.h:15:11: error: expected member name or ';' after declaration specifiers
+o    Shape();
+o    ~~~~~ ^
+o/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/../include/Shape.h:16:17: error: expected ')'
+o    Shape(Vec2f mLoc_, Vec2f mDir_, float mRad_);
+o                ^
+o/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/../include/Shape.h:16:10: note: to match this '('
+o    Shape(Vec2f mLoc_, Vec2f mDir_, float mRad_);
+o         ^
+o/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/../include/Shape.h:21:5: error: unknown type name 'Vec2f'
+o    Vec2f loc_;
+o    ^
+o/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/../include/Shape.h:22:5: error: unknown type name 'Vec2f'
+o    Vec2f dir_;
+o    ^
+o5 errors generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/../src/HomeworkTwoApp.cpp552fb394e208b641^cb4b8a9ee208b641^-1537"In file included from /Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/../src/HomeworkTwoApp.cpp:8:In file included from /Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/../include/ShapeList.h:3:/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/../include/Shape.h:13:7: error: redefinition of 'Shape'class Shape {      ^/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/../include/Shape.h:13:7: note: previous definition is hereclass Shape {      ^In file included from /Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/../src/HomeworkTwoApp.cpp:8:In file included from /Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/../include/ShapeList.h:3:/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/../include/Shape.h:15:11: error: expected member name or ';' after declaration specifiers    Shape();    ~~~~~ ^/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/../include/Shape.h:16:17: error: expected ')'    Shape(Vec2f mLoc_, Vec2f mDir_, float mRad_);                ^/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/../include/Shape.h:16:10: note: to match this '('    Shape(Vec2f mLoc_, Vec2f mDir_, float mRad_);         ^/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/../include/Shape.h:21:5: error: unknown type name 'Vec2f'    Vec2f loc_;    ^/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/../include/Shape.h:22:5: error: unknown type name 'Vec2f'    Vec2f dir_;    ^5 errors generated.5(36%IDEClangDiagnosticActivityLogMessage2@23"Redefinition of 'Shape'-369681054#18446744073709551615#0#3(2@110"In file included from /Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/../src/HomeworkTwoApp.cpp:8:-369681054#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@94"file://localhost/Users/smartkid1965/Documents/DOC/CSE%20274/HomeworkTwo/src/HomeworkTwoApp.cpp0000000000000000^7#9#7#9#94#0#21"Clang LLVM 1.0 Notice--2@107"In file included from /Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/../include/ShapeList.h:3:-369681054#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@91"file://localhost/Users/smartkid1965/Documents/DOC/CSE%20274/HomeworkTwo/include/ShapeList.h0000000000000000^2#9#2#9#70#0#21"Clang LLVM 1.0 Notice--2@27"Previous definition is here-369681054#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@87"file://localhost/Users/smartkid1965/Documents/DOC/CSE%20274/HomeworkTwo/include/Shape.h0000000000000000^12#6#12#6#265#0#21"Clang LLVM 1.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@87"file://localhost/Users/smartkid1965/Documents/DOC/CSE%20274/HomeworkTwo/include/Shape.h0000000000000000^12#6#12#6#265#0#14"Semantic Issue--2@56"Expected member name or ';' after declaration specifiers-369681054#18446744073709551615#0#2(2@110"In file included from /Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/../src/HomeworkTwoApp.cpp:8:-369681054#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@94"file://localhost/Users/smartkid1965/Documents/DOC/CSE%20274/HomeworkTwo/src/HomeworkTwoApp.cpp0000000000000000^7#9#7#9#94#0#21"Clang LLVM 1.0 Notice--2@107"In file included from /Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/../include/ShapeList.h:3:-369681054#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@91"file://localhost/Users/smartkid1965/Documents/DOC/CSE%20274/HomeworkTwo/include/ShapeList.h0000000000000000^2#9#2#9#70#0#21"Clang LLVM 1.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@87"file://localhost/Users/smartkid1965/Documents/DOC/CSE%20274/HomeworkTwo/include/Shape.h0000000000000000^14#10#14#10#293#0#11"Parse Issue1(3@87"file://localhost/Users/smartkid1965/Documents/DOC/CSE%20274/HomeworkTwo/include/Shape.h0000000000000000^14#4#14#9#287#0#-2@12"Expected ')'-369681054#18446744073709551615#0#3(2@110"In file included from /Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/../src/HomeworkTwoApp.cpp:8:-369681054#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@94"file://localhost/Users/smartkid1965/Documents/DOC/CSE%20274/HomeworkTwo/src/HomeworkTwoApp.cpp0000000000000000^7#9#7#9#94#0#21"Clang LLVM 1.0 Notice--2@107"In file included from /Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/../include/ShapeList.h:3:-369681054#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@91"file://localhost/Users/smartkid1965/Documents/DOC/CSE%20274/HomeworkTwo/include/ShapeList.h0000000000000000^2#9#2#9#70#0#21"Clang LLVM 1.0 Notice--2@17"To match this '('-369681054#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@87"file://localhost/Users/smartkid1965/Documents/DOC/CSE%20274/HomeworkTwo/include/Shape.h0000000000000000^15#9#15#9#306#0#21"Clang LLVM 1.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@87"file://localhost/Users/smartkid1965/Documents/DOC/CSE%20274/HomeworkTwo/include/Shape.h0000000000000000^15#16#15#16#313#0#11"Parse Issue--2@25"Unknown type name 'Vec2f'-369681054#18446744073709551615#0#2(2@110"In file included from /Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/../src/HomeworkTwoApp.cpp:8:-369681054#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@94"file://localhost/Users/smartkid1965/Documents/DOC/CSE%20274/HomeworkTwo/src/HomeworkTwoApp.cpp0000000000000000^7#9#7#9#94#0#21"Clang LLVM 1.0 Notice--2@107"In file included from /Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/../include/ShapeList.h:3:-369681054#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@91"file://localhost/Users/smartkid1965/Documents/DOC/CSE%20274/HomeworkTwo/include/ShapeList.h0000000000000000^2#9#2#9#70#0#21"Clang LLVM 1.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@87"file://localhost/Users/smartkid1965/Documents/DOC/CSE%20274/HomeworkTwo/include/Shape.h0000000000000000^20#4#20#4#400#0#11"Parse Issue--2@25"Unknown type name 'Vec2f'-369681054#18446744073709551615#0#2(2@110"In file included from /Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/../src/HomeworkTwoApp.cpp:8:-369681054#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@94"file://localhost/Users/smartkid1965/Documents/DOC/CSE%20274/HomeworkTwo/src/HomeworkTwoApp.cpp0000000000000000^7#9#7#9#94#0#21"Clang LLVM 1.0 Notice--2@107"In file included from /Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/../include/ShapeList.h:3:-369681054#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@91"file://localhost/Users/smartkid1965/Documents/DOC/CSE%20274/HomeworkTwo/include/ShapeList.h0000000000000000^2#9#2#9#70#0#21"Clang LLVM 1.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@87"file://localhost/Users/smartkid1965/Documents/DOC/CSE%20274/HomeworkTwo/include/Shape.h0000000000000000^21#4#21#4#417#0#11"Parse Issue--0#0#0#-19%DVTDocumentLocation4@103"file://localhost/Users/smartkid1965/Documents/DOC/CSE%20274/HomeworkTwo/xcode/../src/HomeworkTwoApp.cpp0000000000000000^3040"CompileC ./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/HomeworkTwoApp.o ../src/HomeworkTwoApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/HomeworkTwo-generated-files.hmap" "-I/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/HomeworkTwo-own-target-headers.hmap" "-I/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/HomeworkTwo-all-target-headers.hmap" -iquote "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/HomeworkTwo-project-headers.hmap" -iquote../../../../../../../cinder_0.8.4_mac/include -iquote../include "-I/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/build/Debug/include" -I../../../../../../../cinder_0.8.4_mac/boost "-I/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/DerivedSources/i386" "-I/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/DerivedSources" "-F/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/build/Debug" -include /var/folders/k8/b059wlxn3w94b77d027mpg6r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HomeworkTwo_Prefix-guqdoxqtuzpbksbgebijupphpifz/HomeworkTwo_Prefix.pch -MMD -MT dependencies -MF "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/HomeworkTwoApp.d" --serialize-diagnostics "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/HomeworkTwoApp.dia" -c "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/../src/HomeworkTwoApp.cpp" -o "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/HomeworkTwoApp.o"36"6A1067F1-4AD6-45D9-BF49-A5AEA8598D4F-
 
 CCompileC ./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/HomeworkTwoApp.o "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/HomeworkTwoApp.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s369679571.459996
-e369679575.394778
-r1
+s369680851.391028
+e369680859.940242
+r0
 xCompileC
 x./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/HomeworkTwoApp.o
 x/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/HomeworkTwoApp.cpp
@@ -5547,11 +5650,59 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/HomeworkTwoApp.cpp2bfc75d3dc08b641^6f1065d7dc08b641^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/smartkid1965/Documents/DOC/CSE%20274/HomeworkTwo/xcode/HomeworkTwoApp.cpp0000000000000000^3026"CompileC ./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/HomeworkTwoApp.o HomeworkTwoApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/HomeworkTwo-generated-files.hmap" "-I/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/HomeworkTwo-own-target-headers.hmap" "-I/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/HomeworkTwo-all-target-headers.hmap" -iquote "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/HomeworkTwo-project-headers.hmap" -iquote../../../../../../../cinder_0.8.4_mac/include -iquote../include "-I/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/build/Debug/include" -I../../../../../../../cinder_0.8.4_mac/boost "-I/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/DerivedSources/i386" "-I/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/DerivedSources" "-F/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/build/Debug" -include /var/folders/k8/b059wlxn3w94b77d027mpg6r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HomeworkTwo_Prefix-guqdoxqtuzpbksbgebijupphpifz/HomeworkTwo_Prefix.pch -MMD -MT dependencies -MF "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/HomeworkTwoApp.d" --serialize-diagnostics "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/HomeworkTwoApp.dia" -c "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/HomeworkTwoApp.cpp" -o "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/HomeworkTwoApp.o"36"8C4E2006-DEB4-4B88-BD82-A9BD2CFFBB2F-
+oIn file included from /Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/HomeworkTwoApp.cpp:8:
+oIn file included from /Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/ShapeList.h:3:
+o/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/Shape.h:13:7: error: redefinition of 'Shape'
+oclass Shape {
+o      ^
+o/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/Shape.h:13:7: note: previous definition is here
+oclass Shape {
+o      ^
+oIn file included from /Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/HomeworkTwoApp.cpp:8:
+oIn file included from /Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/ShapeList.h:3:
+o/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/Shape.h:15:11: error: expected member name or ';' after declaration specifiers
+o    Shape();
+o    ~~~~~ ^
+o/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/Shape.h:16:17: error: expected ')'
+o    Shape(Vec2f mLoc_, Vec2f mDir_, float mRad_);
+o                ^
+o/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/Shape.h:16:10: note: to match this '('
+o    Shape(Vec2f mLoc_, Vec2f mDir_, float mRad_);
+o         ^
+o/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/Shape.h:21:5: error: unknown type name 'Vec2f'
+o    Vec2f loc_;
+o    ^
+o/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/Shape.h:22:5: error: unknown type name 'Vec2f'
+o    Vec2f dir_;
+o    ^
+o5 errors generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/HomeworkTwoApp.cppd99364d3e108b641^eaaef0dbe108b641^-1424"In file included from /Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/HomeworkTwoApp.cpp:8:In file included from /Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/ShapeList.h:3:/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/Shape.h:13:7: error: redefinition of 'Shape'class Shape {      ^/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/Shape.h:13:7: note: previous definition is hereclass Shape {      ^In file included from /Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/HomeworkTwoApp.cpp:8:In file included from /Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/ShapeList.h:3:/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/Shape.h:15:11: error: expected member name or ';' after declaration specifiers    Shape();    ~~~~~ ^/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/Shape.h:16:17: error: expected ')'    Shape(Vec2f mLoc_, Vec2f mDir_, float mRad_);                ^/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/Shape.h:16:10: note: to match this '('    Shape(Vec2f mLoc_, Vec2f mDir_, float mRad_);         ^/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/Shape.h:21:5: error: unknown type name 'Vec2f'    Vec2f loc_;    ^/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/Shape.h:22:5: error: unknown type name 'Vec2f'    Vec2f dir_;    ^5 errors generated.5(36%IDEClangDiagnosticActivityLogMessage2@23"Redefinition of 'Shape'-369680859#18446744073709551615#0#3(2@103"In file included from /Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/HomeworkTwoApp.cpp:8:-369680859#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@96"file://localhost/Users/smartkid1965/Documents/DOC/CSE%20274/HomeworkTwo/xcode/HomeworkTwoApp.cpp0000000000000000^7#9#7#9#94#0#21"Clang LLVM 1.0 Notice--2@96"In file included from /Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/ShapeList.h:3:-369680859#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@89"file://localhost/Users/smartkid1965/Documents/DOC/CSE%20274/HomeworkTwo/xcode/ShapeList.h0000000000000000^2#9#2#9#70#0#21"Clang LLVM 1.0 Notice--2@27"Previous definition is here-369680859#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@85"file://localhost/Users/smartkid1965/Documents/DOC/CSE%20274/HomeworkTwo/xcode/Shape.h0000000000000000^12#6#12#6#265#0#21"Clang LLVM 1.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@85"file://localhost/Users/smartkid1965/Documents/DOC/CSE%20274/HomeworkTwo/xcode/Shape.h0000000000000000^12#6#12#6#265#0#14"Semantic Issue--2@56"Expected member name or ';' after declaration specifiers-369680859#18446744073709551615#0#2(2@103"In file included from /Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/HomeworkTwoApp.cpp:8:-369680859#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@96"file://localhost/Users/smartkid1965/Documents/DOC/CSE%20274/HomeworkTwo/xcode/HomeworkTwoApp.cpp0000000000000000^7#9#7#9#94#0#21"Clang LLVM 1.0 Notice--2@96"In file included from /Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/ShapeList.h:3:-369680859#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@89"file://localhost/Users/smartkid1965/Documents/DOC/CSE%20274/HomeworkTwo/xcode/ShapeList.h0000000000000000^2#9#2#9#70#0#21"Clang LLVM 1.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@85"file://localhost/Users/smartkid1965/Documents/DOC/CSE%20274/HomeworkTwo/xcode/Shape.h0000000000000000^14#10#14#10#293#0#11"Parse Issue1(3@85"file://localhost/Users/smartkid1965/Documents/DOC/CSE%20274/HomeworkTwo/xcode/Shape.h0000000000000000^14#4#14#9#287#0#-2@12"Expected ')'-369680859#18446744073709551615#0#3(2@103"In file included from /Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/HomeworkTwoApp.cpp:8:-369680859#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@96"file://localhost/Users/smartkid1965/Documents/DOC/CSE%20274/HomeworkTwo/xcode/HomeworkTwoApp.cpp0000000000000000^7#9#7#9#94#0#21"Clang LLVM 1.0 Notice--2@96"In file included from /Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/ShapeList.h:3:-369680859#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@89"file://localhost/Users/smartkid1965/Documents/DOC/CSE%20274/HomeworkTwo/xcode/ShapeList.h0000000000000000^2#9#2#9#70#0#21"Clang LLVM 1.0 Notice--2@17"To match this '('-369680859#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@85"file://localhost/Users/smartkid1965/Documents/DOC/CSE%20274/HomeworkTwo/xcode/Shape.h0000000000000000^15#9#15#9#306#0#21"Clang LLVM 1.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@85"file://localhost/Users/smartkid1965/Documents/DOC/CSE%20274/HomeworkTwo/xcode/Shape.h0000000000000000^15#16#15#16#313#0#11"Parse Issue--2@25"Unknown type name 'Vec2f'-369680859#18446744073709551615#0#2(2@103"In file included from /Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/HomeworkTwoApp.cpp:8:-369680859#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@96"file://localhost/Users/smartkid1965/Documents/DOC/CSE%20274/HomeworkTwo/xcode/HomeworkTwoApp.cpp0000000000000000^7#9#7#9#94#0#21"Clang LLVM 1.0 Notice--2@96"In file included from /Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/ShapeList.h:3:-369680859#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@89"file://localhost/Users/smartkid1965/Documents/DOC/CSE%20274/HomeworkTwo/xcode/ShapeList.h0000000000000000^2#9#2#9#70#0#21"Clang LLVM 1.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@85"file://localhost/Users/smartkid1965/Documents/DOC/CSE%20274/HomeworkTwo/xcode/Shape.h0000000000000000^20#4#20#4#400#0#11"Parse Issue--2@25"Unknown type name 'Vec2f'-369680859#18446744073709551615#0#2(2@103"In file included from /Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/HomeworkTwoApp.cpp:8:-369680859#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@96"file://localhost/Users/smartkid1965/Documents/DOC/CSE%20274/HomeworkTwo/xcode/HomeworkTwoApp.cpp0000000000000000^7#9#7#9#94#0#21"Clang LLVM 1.0 Notice--2@96"In file included from /Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/ShapeList.h:3:-369680859#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@89"file://localhost/Users/smartkid1965/Documents/DOC/CSE%20274/HomeworkTwo/xcode/ShapeList.h0000000000000000^2#9#2#9#70#0#21"Clang LLVM 1.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@85"file://localhost/Users/smartkid1965/Documents/DOC/CSE%20274/HomeworkTwo/xcode/Shape.h0000000000000000^21#4#21#4#417#0#11"Parse Issue--0#0#0#-19%DVTDocumentLocation4@96"file://localhost/Users/smartkid1965/Documents/DOC/CSE%20274/HomeworkTwo/xcode/HomeworkTwoApp.cpp0000000000000000^3026"CompileC ./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/HomeworkTwoApp.o HomeworkTwoApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/HomeworkTwo-generated-files.hmap" "-I/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/HomeworkTwo-own-target-headers.hmap" "-I/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/HomeworkTwo-all-target-headers.hmap" -iquote "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/HomeworkTwo-project-headers.hmap" -iquote../../../../../../../cinder_0.8.4_mac/include -iquote../include "-I/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/build/Debug/include" -I../../../../../../../cinder_0.8.4_mac/boost "-I/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/DerivedSources/i386" "-I/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/DerivedSources" "-F/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/build/Debug" -include /var/folders/k8/b059wlxn3w94b77d027mpg6r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HomeworkTwo_Prefix-guqdoxqtuzpbksbgebijupphpifz/HomeworkTwo_Prefix.pch -MMD -MT dependencies -MF "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/HomeworkTwoApp.d" --serialize-diagnostics "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/HomeworkTwoApp.dia" -c "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/HomeworkTwoApp.cpp" -o "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/HomeworkTwoApp.o"36"D9BE2497-BEC1-4339-8FD3-5D385153F585-
+
+CCompileC ./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/Node.o "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/Node.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/Shape-56106DBC59757045.o "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/../src/Shape.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/Shape-7843D4C94E2EDB43.o "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/Shape.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/Shape.o "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/../src/Shape.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s369681044.696924
+e369681054.641657
+r1
+xCompileC
+x./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/Shape.o
+x/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/../src/Shape.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/../src/Shape.cpp4dd8b294e208b641^6f47a49ee208b641^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/smartkid1965/Documents/DOC/CSE%20274/HomeworkTwo/xcode/../src/Shape.cpp0000000000000000^2986"CompileC ./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/Shape.o ../src/Shape.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/HomeworkTwo-generated-files.hmap" "-I/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/HomeworkTwo-own-target-headers.hmap" "-I/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/HomeworkTwo-all-target-headers.hmap" -iquote "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/HomeworkTwo-project-headers.hmap" -iquote../../../../../../../cinder_0.8.4_mac/include -iquote../include "-I/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/build/Debug/include" -I../../../../../../../cinder_0.8.4_mac/boost "-I/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/DerivedSources/i386" "-I/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/DerivedSources" "-F/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/build/Debug" -include /var/folders/k8/b059wlxn3w94b77d027mpg6r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HomeworkTwo_Prefix-guqdoxqtuzpbksbgebijupphpifz/HomeworkTwo_Prefix.pch -MMD -MT dependencies -MF "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/Shape.d" --serialize-diagnostics "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/Shape.dia" -c "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/../src/Shape.cpp" -o "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/Shape.o"36"66FAC66A-8EDF-44AF-BEF3-6539C7F8C802-
 
 CCompileC ./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/Shape.o "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/Shape.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s369679539.149236
-e369679556.773316
+s369680851.391282
+e369680860.142726
 r1
 xCompileC
 x./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/Shape.o
@@ -5560,11 +5711,30 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/Shape.cpp037926b3dc08b641^50fbc5c4dc08b641^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/smartkid1965/Documents/DOC/CSE%20274/HomeworkTwo/xcode/Shape.cpp0000000000000000^2972"CompileC ./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/Shape.o Shape.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/HomeworkTwo-generated-files.hmap" "-I/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/HomeworkTwo-own-target-headers.hmap" "-I/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/HomeworkTwo-all-target-headers.hmap" -iquote "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/HomeworkTwo-project-headers.hmap" -iquote../../../../../../../cinder_0.8.4_mac/include -iquote../include "-I/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/build/Debug/include" -I../../../../../../../cinder_0.8.4_mac/boost "-I/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/DerivedSources/i386" "-I/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/DerivedSources" "-F/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/build/Debug" -include /var/folders/k8/b059wlxn3w94b77d027mpg6r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HomeworkTwo_Prefix-guqdoxqtuzpbksbgebijupphpifz/HomeworkTwo_Prefix.pch -MMD -MT dependencies -MF "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/Shape.d" --serialize-diagnostics "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/Shape.dia" -c "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/Shape.cpp" -o "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/Shape.o"36"DED12433-3121-42AB-9435-08BCBDFCD623-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/Shape.cppd86564d3e108b641^ca344adce108b641^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/smartkid1965/Documents/DOC/CSE%20274/HomeworkTwo/xcode/Shape.cpp0000000000000000^2972"CompileC ./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/Shape.o Shape.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/HomeworkTwo-generated-files.hmap" "-I/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/HomeworkTwo-own-target-headers.hmap" "-I/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/HomeworkTwo-all-target-headers.hmap" -iquote "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/HomeworkTwo-project-headers.hmap" -iquote../../../../../../../cinder_0.8.4_mac/include -iquote../include "-I/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/build/Debug/include" -I../../../../../../../cinder_0.8.4_mac/boost "-I/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/DerivedSources/i386" "-I/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/DerivedSources" "-F/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/build/Debug" -include /var/folders/k8/b059wlxn3w94b77d027mpg6r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HomeworkTwo_Prefix-guqdoxqtuzpbksbgebijupphpifz/HomeworkTwo_Prefix.pch -MMD -MT dependencies -MF "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/Shape.d" --serialize-diagnostics "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/Shape.dia" -c "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/Shape.cpp" -o "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/Shape.o"36"98118881-F8B5-4FD1-BA61-460DCE9802FA-
+
+CCompileC ./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/ShapeList-CE91CCE68AED8046.o "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/../src/ShapeList.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/ShapeList-F0C533F37FA6EB44.o "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/ShapeList.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC ./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/ShapeList.o "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/../src/ShapeList.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s369681044.698949
+e369681054.536727
+r1
+xCompileC
+x./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/ShapeList.o
+x/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/../src/ShapeList.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/../src/ShapeList.cpp6823b394e208b641^d68b899ee208b641^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/smartkid1965/Documents/DOC/CSE%20274/HomeworkTwo/xcode/../src/ShapeList.cpp0000000000000000^3010"CompileC ./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/ShapeList.o ../src/ShapeList.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/HomeworkTwo-generated-files.hmap" "-I/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/HomeworkTwo-own-target-headers.hmap" "-I/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/HomeworkTwo-all-target-headers.hmap" -iquote "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/HomeworkTwo-project-headers.hmap" -iquote../../../../../../../cinder_0.8.4_mac/include -iquote../include "-I/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/build/Debug/include" -I../../../../../../../cinder_0.8.4_mac/boost "-I/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/DerivedSources/i386" "-I/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/DerivedSources" "-F/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/build/Debug" -include /var/folders/k8/b059wlxn3w94b77d027mpg6r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HomeworkTwo_Prefix-guqdoxqtuzpbksbgebijupphpifz/HomeworkTwo_Prefix.pch -MMD -MT dependencies -MF "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/ShapeList.d" --serialize-diagnostics "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/ShapeList.dia" -c "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/../src/ShapeList.cpp" -o "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/ShapeList.o"36"4BDEBA15-377A-4506-8460-5785828809F6-
 
 CCompileC ./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/ShapeList.o "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/ShapeList.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s369671663.079430
-e369671675.688700
+s369680851.391397
+e369680860.041766
 r1
 xCompileC
 x./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/ShapeList.o
@@ -5573,7 +5743,7 @@ xnormal
 xi386
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/ShapeList.cpp978f14efbd08b641^bf7ec8fbbd08b641^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/smartkid1965/Documents/DOC/CSE%20274/HomeworkTwo/xcode/ShapeList.cpp0000000000000000^2996"CompileC ./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/ShapeList.o ShapeList.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/HomeworkTwo-generated-files.hmap" "-I/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/HomeworkTwo-own-target-headers.hmap" "-I/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/HomeworkTwo-all-target-headers.hmap" -iquote "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/HomeworkTwo-project-headers.hmap" -iquote../../../../../../../cinder_0.8.4_mac/include -iquote../include "-I/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/build/Debug/include" -I../../../../../../../cinder_0.8.4_mac/boost "-I/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/DerivedSources/i386" "-I/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/DerivedSources" "-F/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/build/Debug" -include /var/folders/k8/b059wlxn3w94b77d027mpg6r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HomeworkTwo_Prefix-guqdoxqtuzpbksbgebijupphpifz/HomeworkTwo_Prefix.pch -MMD -MT dependencies -MF "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/ShapeList.d" --serialize-diagnostics "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/ShapeList.dia" -c "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/ShapeList.cpp" -o "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/ShapeList.o"36"F4FB23ED-EE8A-4E93-815B-8BC9B606AB6A-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/ShapeList.cpp776864d3e108b641^14b30adce108b641^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/smartkid1965/Documents/DOC/CSE%20274/HomeworkTwo/xcode/ShapeList.cpp0000000000000000^2996"CompileC ./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/ShapeList.o ShapeList.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-newline-eof -Wc++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/HomeworkTwo-generated-files.hmap" "-I/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/HomeworkTwo-own-target-headers.hmap" "-I/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/HomeworkTwo-all-target-headers.hmap" -iquote "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/HomeworkTwo-project-headers.hmap" -iquote../../../../../../../cinder_0.8.4_mac/include -iquote../include "-I/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/build/Debug/include" -I../../../../../../../cinder_0.8.4_mac/boost "-I/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/DerivedSources/i386" "-I/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/DerivedSources" "-F/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/build/Debug" -include /var/folders/k8/b059wlxn3w94b77d027mpg6r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HomeworkTwo_Prefix-guqdoxqtuzpbksbgebijupphpifz/HomeworkTwo_Prefix.pch -MMD -MT dependencies -MF "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/ShapeList.d" --serialize-diagnostics "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/ShapeList.dia" -c "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/ShapeList.cpp" -o "/Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/./build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/ShapeList.o"36"E665E2A4-F4D3-4908-9388-515D39C2F20B-
 
 CCpResource CinderApp.icns ./build/Debug/HomeworkTwo.app/Contents/Resources/CinderApp.icns
 s369671660.196928

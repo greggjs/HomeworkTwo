@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/smartkid1965/Documents/DOC/CSE\ 274/HomeworkTwo/xcode/Shape.cpp \
+  /Users/smartkid1965/Documents/DOC/CSE\ 274/HomeworkTwo/xcode/../src/Shape.cpp \
   ../../../../../../../cinder_0.8.4_mac/include/cinder/app/AppBasic.h \
   ../../../../../../../cinder_0.8.4_mac/include/cinder/app/App.h \
   ../../../../../../../cinder_0.8.4_mac/include/cinder/Cinder.h \
@@ -1074,4 +1074,4 @@ dependencies: \
   ../../../../../../../cinder_0.8.4_mac/boost/boost/random/uniform_on_sphere.hpp \
   ../../../../../../../cinder_0.8.4_mac/boost/boost/random/uniform_smallint.hpp \
   ../../../../../../../cinder_0.8.4_mac/boost/boost/random/weibull_distribution.hpp \
-  /Users/smartkid1965/Documents/DOC/CSE\ 274/HomeworkTwo/xcode/Shape.h
+  /Users/smartkid1965/Documents/DOC/CSE\ 274/HomeworkTwo/xcode/../include/Shape.h

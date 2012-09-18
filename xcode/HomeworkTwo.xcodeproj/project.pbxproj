@@ -14,13 +14,13 @@
 		5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B50EAFCA7E003A9687 /* QTKit.framework */; };
 		53E3CDFC0E86099300238D2B /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E3CDFB0E86099300238D2B /* Carbon.framework */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
-		9D0830E31608B95A0009C287 /* HomeworkTwoApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D0830E01608B95A0009C287 /* HomeworkTwoApp.cpp */; };
-		9D0830E41608B95A0009C287 /* Shape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D0830E11608B95A0009C287 /* Shape.cpp */; };
-		9D0830E51608B95A0009C287 /* ShapeList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D0830E21608B95A0009C287 /* ShapeList.cpp */; };
 		9D0830EA1608B9A30009C287 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D0830E61608B9A30009C287 /* Accelerate.framework */; };
 		9D0830EB1608B9A30009C287 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D0830E71608B9A30009C287 /* AudioToolbox.framework */; };
 		9D0830EC1608B9A30009C287 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D0830E81608B9A30009C287 /* AudioUnit.framework */; };
 		9D0830ED1608B9A30009C287 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D0830E91608B9A30009C287 /* CoreAudio.framework */; };
+		9D0830FC1608E2650009C287 /* HomeworkTwoApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D0830F91608E2650009C287 /* HomeworkTwoApp.cpp */; };
+		9D0830FD1608E2650009C287 /* Shape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D0830FA1608E2650009C287 /* Shape.cpp */; };
+		9D0830FE1608E2650009C287 /* ShapeList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D0830FB1608E2650009C287 /* ShapeList.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,16 +41,16 @@
 		53E3CDFB0E86099300238D2B /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* HomeworkTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeworkTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D0830DC1608B94B0009C287 /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Resources.h; sourceTree = "<group>"; };
-		9D0830DD1608B94B0009C287 /* Shape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shape.h; sourceTree = "<group>"; };
-		9D0830DE1608B94B0009C287 /* ShapeList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShapeList.h; sourceTree = "<group>"; };
-		9D0830E01608B95A0009C287 /* HomeworkTwoApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HomeworkTwoApp.cpp; sourceTree = "<group>"; };
-		9D0830E11608B95A0009C287 /* Shape.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Shape.cpp; sourceTree = "<group>"; };
-		9D0830E21608B95A0009C287 /* ShapeList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ShapeList.cpp; sourceTree = "<group>"; };
 		9D0830E61608B9A30009C287 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = /System/Library/Frameworks/Accelerate.framework; sourceTree = "<absolute>"; };
 		9D0830E71608B9A30009C287 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
 		9D0830E81608B9A30009C287 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = /System/Library/Frameworks/AudioUnit.framework; sourceTree = "<absolute>"; };
 		9D0830E91608B9A30009C287 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = /System/Library/Frameworks/CoreAudio.framework; sourceTree = "<absolute>"; };
+		9D0830F91608E2650009C287 /* HomeworkTwoApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HomeworkTwoApp.cpp; path = ../src/HomeworkTwoApp.cpp; sourceTree = "<group>"; };
+		9D0830FA1608E2650009C287 /* Shape.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Shape.cpp; path = ../src/Shape.cpp; sourceTree = "<group>"; };
+		9D0830FB1608E2650009C287 /* ShapeList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ShapeList.cpp; path = ../src/ShapeList.cpp; sourceTree = "<group>"; };
+		9D0830FF1608E2850009C287 /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Resources.h; path = ../include/Resources.h; sourceTree = "<group>"; };
+		9D0831001608E2850009C287 /* Shape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Shape.h; path = ../include/Shape.h; sourceTree = "<group>"; };
+		9D0831011608E2850009C287 /* ShapeList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ShapeList.h; path = ../include/ShapeList.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +77,9 @@
 		080E96DDFE201D6D7F000001 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				9D0830E01608B95A0009C287 /* HomeworkTwoApp.cpp */,
-				9D0830E11608B95A0009C287 /* Shape.cpp */,
-				9D0830E21608B95A0009C287 /* ShapeList.cpp */,
+				9D0830F91608E2650009C287 /* HomeworkTwoApp.cpp */,
+				9D0830FA1608E2650009C287 /* Shape.cpp */,
+				9D0830FB1608E2650009C287 /* ShapeList.cpp */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -134,9 +134,9 @@
 		29B97315FDCFA39411CA2CEA /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				9D0830DC1608B94B0009C287 /* Resources.h */,
-				9D0830DD1608B94B0009C287 /* Shape.h */,
-				9D0830DE1608B94B0009C287 /* ShapeList.h */,
+				9D0830FF1608E2850009C287 /* Resources.h */,
+				9D0831001608E2850009C287 /* Shape.h */,
+				9D0831011608E2850009C287 /* ShapeList.h */,
 				32CA4F630368D1EE00C91783 /* HomeworkTwo_Prefix.pch */,
 			);
 			name = Headers;
@@ -222,9 +222,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D0830E31608B95A0009C287 /* HomeworkTwoApp.cpp in Sources */,
-				9D0830E41608B95A0009C287 /* Shape.cpp in Sources */,
-				9D0830E51608B95A0009C287 /* ShapeList.cpp in Sources */,
+				9D0830FC1608E2650009C287 /* HomeworkTwoApp.cpp in Sources */,
+				9D0830FD1608E2650009C287 /* Shape.cpp in Sources */,
+				9D0830FE1608E2650009C287 /* ShapeList.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
