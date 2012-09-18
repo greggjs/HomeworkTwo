@@ -2,7 +2,14 @@ ffffffffffffffffffffffffffffffff 8cdd71b950af1c58aa1e7c67b5377c0c ffffffffffffff
 4fd095e140092e3ffd555d09225d05a8 ee238cf21c8254e0607550ddc92c027a ffffffffffffffffffffffffffffffff 0 /Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/HomeworkTwoApp.o
 4fd095e132e73a88fd555d09225f22d3 05777242b7c9f6d86871b5e6b3fb964d ffffffffffffffffffffffffffffffff 65148 /Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/ShapeList.o
 ffffffffffffffffffffffffffffffff 5dfecf51f27f42f213113b9f36cd6c6d ffffffffffffffffffffffffffffffff 102 /Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/build/Debug/HomeworkTwo.app
+<<<<<<< HEAD
 ffffffffffffffffffffffffffffffff a837064ccba72d3c11e2f5f57dc51fcf ffffffffffffffffffffffffffffffff 7815200 /Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/build/Debug/HomeworkTwo.app/Contents/MacOS/HomeworkTwo
+=======
+ffffffffffffffffffffffffffffffff a837064ccba72d3c11e2f5f57dc51fcf ffffffffffffffffffffffffffffffff 7815172 /Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/build/Debug/HomeworkTwo.app/Contents/MacOS/HomeworkTwo
+4fd095e132e737c0fd555d09225f21a3 7c4bd1071788bc9a9f33d0a1b1e42887 ffffffffffffffffffffffffffffffff 117044 /Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/Shape.o
+ffffffffffffffffffffffffffffffff caa830b9615f0606fbdad597a9b8611a ffffffffffffffffffffffffffffffff 50264 /Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/ShapeList.o
+4fd095e162bfb1fefd555d09225f20a1 b5ec02ea1de551747a1599f381c9cfd7 ffffffffffffffffffffffffffffffff 319284 /Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/build/HomeworkTwo.build/Debug/HomeworkTwo.build/Objects-normal/i386/HomeworkTwoApp.o
+>>>>>>> parent of 6f937ef... Got the Shape to draw on click
 00000000007171130000000000000176 4fd095e110518b6cfd555d09225d06e4 ffffffffffffffffffffffffffffffff 95512 /var/folders/k8/b059wlxn3w94b77d027mpg6r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/HomeworkTwo_Prefix-guqdoxqtuzpbksbgebijupphpifz/HomeworkTwo_Prefix.pch.pth
 00000000000000000000000000000000 eb7d2e69ea4c117a21169e11c14ebd9d ffffffffffffffffffffffffffffffff 114357 /Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/build/Debug/HomeworkTwo.app/Contents/Resources/CinderApp.icns
 00000000000000000000000000000000 664edfa0c54e7ba993c1e3ba1a7a5e86 ffffffffffffffffffffffffffffffff 8 /Users/smartkid1965/Documents/DOC/CSE 274/HomeworkTwo/xcode/build/Debug/HomeworkTwo.app/Contents/PkgInfo
