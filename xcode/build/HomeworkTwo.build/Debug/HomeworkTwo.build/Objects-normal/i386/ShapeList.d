@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/smartkid1965/Documents/DOC/CSE\ 274/HomeworkTwo/xcode/../src/ShapeList.cpp \
+  /Users/smartkid1965/Documents/DOC/CSE\ 274/HomeworkTwo/xcode/ShapeList.cpp \
   ../../../../../../../cinder_0.8.4_mac/include/cinder/app/AppBasic.h \
   ../../../../../../../cinder_0.8.4_mac/include/cinder/app/App.h \
   ../../../../../../../cinder_0.8.4_mac/include/cinder/Cinder.h \
@@ -490,8 +490,8 @@ dependencies: \
   ../../../../../../../cinder_0.8.4_mac/include/cinder/Timer.h \
   ../../../../../../../cinder_0.8.4_mac/include/cinder/Function.h \
   ../../../../../../../cinder_0.8.4_mac/include/cinder/app/TouchEvent.h \
-  /Users/smartkid1965/Documents/DOC/CSE\ 274/HomeworkTwo/xcode/../include/ShapeList.h \
-  ../include/Shape.h \
+  /Users/smartkid1965/Documents/DOC/CSE\ 274/HomeworkTwo/xcode/ShapeList.h \
+  /Users/smartkid1965/Documents/DOC/CSE\ 274/HomeworkTwo/xcode/Shape.h \
   ../../../../../../../cinder_0.8.4_mac/include/cinder/Rand.h \
   ../../../../../../../cinder_0.8.4_mac/boost/boost/random.hpp \
   ../../../../../../../cinder_0.8.4_mac/boost/boost/random/additive_combine.hpp \

@@ -1,9 +1,19 @@
+//
+//  Shape.h
+//  HomeworkTwo
+//
+//  Created by Jake Gregg on 9/18/12.
+//
+//
+
+#ifndef HomeworkTwo_Shape_h
+#define HomeworkTwo_Shape_h
+
 #include "cinder/app/AppBasic.h"
 #include "cinder/gl/gl.h"
 #include "cinder/Vector.h"
 #include "cinder/Color.h"
 #include "cinder/Rand.h"
-#include <vector>
 
 using namespace ci;
 using namespace ci::app;
@@ -26,3 +36,5 @@ private:
     float rand_green_;
     float rand_blue_;
 };
+
+#endif
