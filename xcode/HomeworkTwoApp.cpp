@@ -33,7 +33,7 @@ void HomeworkTwoApp::setup()
 
 void HomeworkTwoApp::mouseDown( MouseEvent event )
 {
-    new Shape(event.getPos(), event.getPos(), 20.0f);
+    mShape_ = Shape(event.getPos(), event.getPos(), 20.0f);
 }
 
 void HomeworkTwoApp::update()

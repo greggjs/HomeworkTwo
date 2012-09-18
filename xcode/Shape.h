@@ -13,7 +13,6 @@ class Shape {
 public:
     Shape();
     Shape(Vec2f mLoc_, Vec2f mDir_, float mRad_);
-	void setup();
 	void update();
 	void draw();
 private:
