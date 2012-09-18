@@ -13,6 +13,7 @@
 
 using namespace ci;
 using namespace ci::app;
+using namespace ci::gl;
 using namespace std;
 
 class HomeworkTwoApp : public AppBasic {
@@ -21,24 +22,31 @@ class HomeworkTwoApp : public AppBasic {
 	void mouseDown( MouseEvent event );	
 	void update();
 	void draw();
+private:
+    Shape mShape_;
 };
 
 void HomeworkTwoApp::setup()
 {
+    
 }
 
 void HomeworkTwoApp::mouseDown( MouseEvent event )
 {
+    new Shape(event.getPos(), event.getPos(), 20.0f);
 }
 
 void HomeworkTwoApp::update()
 {
+    
 }
 
 void HomeworkTwoApp::draw()
 {
 	// clear out the window with black
-	gl::clear( Color( 0, 0, 0 ) ); 
+	gl::clear( Color( 0, 0, 0 ) );
+    mShape_.draw();
+    
 }
 
 CINDER_APP_BASIC( HomeworkTwoApp, RendererGl )
