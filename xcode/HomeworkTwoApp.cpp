@@ -34,7 +34,7 @@ private:
 
 	static const int kAppWidth=800;
 	static const int kAppHeight=600;
-	bool moving__;
+	bool moving_;
 	int index_; 
 	int mouse_x_;
 	int mouse_y_;
@@ -53,7 +53,7 @@ void HomeworkTwoApp::setup()
 {
 	list_ = new ShapeList();
 	
-	moving__ = false;
+	moving_ = false;
 	is_increasing_ = false;
 	radius_ = 25;
 	index_ = 1;
@@ -81,7 +81,7 @@ void HomeworkTwoApp::mouseWheel(MouseEvent event){
 
 void HomeworkTwoApp::mouseDrag(MouseEvent event){
     
-	if(event.isLeftDown() && moving__ && my_shape != NULL){
+	if(event.isLeftDown() && moving_ && my_shape != NULL){
 		mouseMove(event);
 		my_shape->move(mouse_x_, mouse_y_);
 	}
@@ -90,7 +90,7 @@ void HomeworkTwoApp::mouseDrag(MouseEvent event){
 
 void HomeworkTwoApp::mouseDown( MouseEvent event )
 {
-	if(moving__){
+	if(moving_ && event.isLeft()){
 		my_shape = list_->getShapeAt(event.getX(),event.getY());
 	}
 	else if(event.isLeft()){
@@ -102,19 +102,21 @@ void HomeworkTwoApp::mouseDown( MouseEvent event )
 		list_->insertAfter(new_node, list_->sentinel_);
 		index_++;
 	}
-	else if(event.isRight())
+	else if(event.isRight()) {
 		list_->bringToFront(event.getX(),event.getY());
-	
+        list_->updateTint();
+    }
 }
 
 void HomeworkTwoApp::keyDown( KeyEvent event )
 {
 	switch(event.getChar()){
         case 'm':
-            moving__ = !moving__;
+            moving_ = !moving_;
             break;
         case 'r':
             list_->reverseOrder();
+            list_->updateTint();
             break;
         case 'a':
             if(my_shape != NULL)

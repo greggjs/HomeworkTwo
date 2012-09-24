@@ -30,6 +30,8 @@ public:
     int y_;
     int radius_;
     Color8u color_;
+    Color8u vis_color_;
+    float alpha_;
     
     int anchor_x_;
     int anchor_y_;
@@ -42,6 +44,7 @@ public:
     void setChild();
     void removeChild();
     void move(int x, int y);
+    void updateTint(float alpha);
 };
 
 #endif

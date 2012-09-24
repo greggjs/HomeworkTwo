@@ -12,10 +12,13 @@ using namespace std;
 Shape::Shape(int x, int y, int radius){
 	this->x_ = x;
 	this->y_ = y;
+    this->alpha_ = 0;
+    
 	this->child_ = NULL;
 	this->anchor_x_ = x;
 	this->anchor_y_ = y;
 	this->bound_ = 0;
+    
     
 	//make sure the radius isn't too large
 	if(radius > 100)
@@ -28,6 +31,7 @@ Shape::Shape(int x, int y, int radius){
 	random.seed(x);
 	this->color_ = Color8u(random.nextInt(0,256),
                            random.nextInt(0,256),random.nextInt(0,256));
+    this->vis_color_ = color_;
 }
 
 void Shape::setChild(){
@@ -35,6 +39,7 @@ void Shape::setChild(){
 	//bound should equal the radius of the outer shape minus the radius
 	//of the inner shape.
 	this->child_->bound_ = abs(this->radius_ - this->child_->radius_);
+    this->updateTint(this->alpha_);
 }
 
 void Shape::removeChild(){
@@ -45,12 +50,23 @@ void Shape::draw(){
     
 	Vec2f* center = new Vec2f(this->x_, this->y_);
     
-    color(this->color_);
+    color(this->vis_color_);
 	drawSolidCircle(*center, radius_, 0);
 	
 	if(this->child_ != NULL)
 		this->child_->draw();
 	
+}
+
+void Shape::updateTint(float alpha) {
+    this->alpha_ = alpha;
+    
+    this->vis_color_ = Color8u(this->color_.r * 1-alpha + 255 * alpha,
+                            this->color_.g * 1-alpha + 255 * alpha,
+                            this->color_.b * 1-alpha + 255 * alpha);
+    
+    if (this->child_ != NULL)
+        this->child_->updateTint(alpha);
 }
 
 //This method checks whether or not a (x,y) point is within

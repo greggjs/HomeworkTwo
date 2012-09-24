@@ -62,6 +62,19 @@ Node* ShapeList::removeNode(Node* target_node) {
     return target_node;
 }
 
+void ShapeList::updateTint() {
+    Node* cur = this->sentinel_->next_;
+    float alpha = 0;
+    
+    while (cur != this->sentinel_) {
+        cur->data_->updateTint(alpha);
+        cur = cur->next_;
+        if (alpha < 0.95)
+            alpha += 0.05f;
+    }
+        
+}
+
 void ShapeList::draw() {
     Node* cur = this->sentinel_->prev_;
     

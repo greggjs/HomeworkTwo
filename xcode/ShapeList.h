@@ -22,6 +22,7 @@ public:
     void bringToFront(int x, int y);
     void insertAfter(Node* new_link, Node* target_link);
     void insertBefore(Node* new_link, Node* target_link);
+    void updateTint();
     Node* removeNode(Node* target_node);
     Shape* getShapeAt(int x, int y);
     Node* getNodeAt(int x, int y);
