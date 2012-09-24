@@ -32,8 +32,8 @@ Shape::Shape(int x, int y, int radius){
 
 void Shape::setChild(){
 	this->child_ = new Shape(this->x_, this->y_, this->radius_ / 2);
-	//bound should equal the radius of the outer circle minus the radius
-	//of the inner circle.
+	//bound should equal the radius of the outer shape minus the radius
+	//of the inner shape.
 	this->child_->bound_ = abs(this->radius_ - this->child_->radius_);
 }
 
@@ -45,8 +45,8 @@ void Shape::draw(){
     
 	Vec2f* center = new Vec2f(this->x_, this->y_);
     
-	gl::color(this->color_);
-	gl::drawSolidCircle(*center, this->radius_,0);
+    color(this->color_);
+	drawSolidCircle(*center, radius_, 0);
 	
 	if(this->child_ != NULL)
 		this->child_->draw();
@@ -54,18 +54,18 @@ void Shape::draw(){
 }
 
 //This method checks whether or not a (x,y) point is within
-//its bounds and returns a pointer to the circle. (if false return null)
+//its bounds and returns a pointer to the shape. (if false return null)
 Shape* Shape::findShapeWithPoint(int x, int y){
     
 	int radius = this->radius_;
     
-	//check that the x-coord of the point is within our circle's width,
+	//check that the x-coord of the point is within our shape's width,
 	//then check if the y-coord is within the height.
 	if((x >= x_ - radius) && (x <= x_ + radius)
        && (y >= y_ - radius) && (y <= y_ + radius)){
         
-        //if circle has a child, recursively call to see if the point
-        //is within the child's circle.
+        //if shape has a child, recursively call to see if the point
+        //is within the child's shape.
         if(this->child_ != NULL){
             Shape* active_child = this->child_->findShapeWithPoint(x,y);
             if(active_child != NULL)
@@ -84,11 +84,11 @@ Shape* Shape::findShapeWithPoint(int x, int y){
     
 }
 
-//this function moves a circle's coordinates and all of its children.
+//this function moves a shape's coordinates and all of its children.
 void Shape::move(int x, int y){
     
-	//if the circle is bounded, we must check that its center doesn't
-	//go past the bound (outer circle radius) minus its own radius
+	//if the shape is bounded, we must check that its center doesn't
+	//go past the bound (outer shape radius) minus its own radius
 	if(this->bound_ != 0){
 		if((x < this->anchor_x_ + this->bound_ && x > this->anchor_x_ - this->bound_)
            && (y < this->anchor_y_ + this->bound_ && y > this->anchor_y_ - this->bound_)){

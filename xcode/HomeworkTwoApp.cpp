@@ -34,13 +34,13 @@ private:
 
 	static const int kAppWidth=800;
 	static const int kAppHeight=600;
-	bool is_moving_circles_;
+	bool moving__;
 	int index_; 
 	int mouse_x_;
 	int mouse_y_;
 	int radius_;
-	bool radius_is_increasing_;
-	Shape* mobile_circle;
+	bool is_increasing_;
+	Shape* my_shape;
     
 };
 
@@ -53,8 +53,8 @@ void HomeworkTwoApp::setup()
 {
 	list_ = new ShapeList();
 	
-	is_moving_circles_ = false;
-	radius_is_increasing_ = false;
+	moving__ = false;
+	is_increasing_ = false;
 	radius_ = 25;
 	index_ = 1;
 }
@@ -70,7 +70,7 @@ void HomeworkTwoApp::mouseMove(MouseEvent event){
 //circles drawn. if you scroll with the shift button down
 //it decreases the radius.
 void HomeworkTwoApp::mouseWheel(MouseEvent event){
-	if(radius_is_increasing_)
+	if(is_increasing_)
 		radius_ += abs( event.getWheelIncrement());
 	else
 		radius_ -= abs( event.getWheelIncrement()) * 5;
@@ -81,17 +81,17 @@ void HomeworkTwoApp::mouseWheel(MouseEvent event){
 
 void HomeworkTwoApp::mouseDrag(MouseEvent event){
     
-	if(event.isLeftDown() && is_moving_circles_ && mobile_circle != NULL){
+	if(event.isLeftDown() && moving__ && my_shape != NULL){
 		mouseMove(event);
-		mobile_circle->move(mouse_x_, mouse_y_);
+		my_shape->move(mouse_x_, mouse_y_);
 	}
     
 }
 
 void HomeworkTwoApp::mouseDown( MouseEvent event )
 {
-	if(is_moving_circles_){
-		mobile_circle = list_->getShapeAt(event.getX(),event.getY());
+	if(moving__){
+		my_shape = list_->getShapeAt(event.getX(),event.getY());
 	}
 	else if(event.isLeft()){
 		//create a new node at the end of the list.
@@ -111,16 +111,16 @@ void HomeworkTwoApp::keyDown( KeyEvent event )
 {
 	switch(event.getChar()){
         case 'm':
-            is_moving_circles_ = !is_moving_circles_;
+            moving__ = !moving__;
             break;
         case 'r':
             list_->reverseOrder();
             break;
         case 'a':
-            if(mobile_circle != NULL)
-                mobile_circle->setChild();
+            if(my_shape != NULL)
+                my_shape->setChild();
         case 'i':
-            radius_is_increasing_ = !radius_is_increasing_;
+            is_increasing_ = !is_increasing_;
         default:
             break;
             
