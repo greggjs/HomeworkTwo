@@ -1,6 +1,7 @@
 #include "cinder/app/AppBasic.h"
 #include "cinder/gl/gl.h"
 #include "Shape.h"
+#include "Node.h"
 
 using namespace ci;
 using namespace ci::app;
@@ -9,21 +10,19 @@ using namespace std;
 
 class ShapeList {
 
-//struct node_ {
-  //  node_* next_;
-   
-//};
 public:
     ShapeList();
 	void setup();
 	void update();
 	void draw();
-    void insert(Shape mShape);
-    //void remove(node_* mLoc);
-    //void at (node_* mLoc);
     
-//private:
-//    node_* sentinel_;
-//    node_* next_;
-//    Shape data_;
+    Node* sentinel_;
+    
+    void reverseOrder();
+    void bringToFront(int x, int y);
+    void insertAfter(Node* new_link, Node* target_link);
+    void insertBefore(Node* new_link, Node* target_link);
+    Node* removeNode(Node* target_node);
+    Shape* getShapeAt(int x, int y);
+    Node* getNodeAt(int x, int y);
 };

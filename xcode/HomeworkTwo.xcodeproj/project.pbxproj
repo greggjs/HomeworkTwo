@@ -21,6 +21,7 @@
 		9D0831141608E5270009C287 /* HomeworkTwoApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D0831111608E5270009C287 /* HomeworkTwoApp.cpp */; };
 		9D0831151608E5270009C287 /* Shape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D0831121608E5270009C287 /* Shape.cpp */; };
 		9D0831161608E5270009C287 /* ShapeList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D0831131608E5270009C287 /* ShapeList.cpp */; };
+		9D963A0416105B96007D93FD /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D963A0316105B96007D93FD /* Node.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,8 @@
 		9D0831171608E5370009C287 /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Resources.h; sourceTree = "<group>"; };
 		9D0831191608E5370009C287 /* ShapeList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShapeList.h; sourceTree = "<group>"; };
 		9D08311A1608E7870009C287 /* Shape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shape.h; sourceTree = "<group>"; };
+		9D963A0116105B8A007D93FD /* Node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		9D963A0316105B96007D93FD /* Node.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Node.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,7 @@
 				9D0831111608E5270009C287 /* HomeworkTwoApp.cpp */,
 				9D0831121608E5270009C287 /* Shape.cpp */,
 				9D0831131608E5270009C287 /* ShapeList.cpp */,
+				9D963A0316105B96007D93FD /* Node.cpp */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -138,6 +142,7 @@
 				9D0831191608E5370009C287 /* ShapeList.h */,
 				32CA4F630368D1EE00C91783 /* HomeworkTwo_Prefix.pch */,
 				9D08311A1608E7870009C287 /* Shape.h */,
+				9D963A0116105B8A007D93FD /* Node.h */,
 			);
 			name = Headers;
 			sourceTree = "<group>";
@@ -225,6 +230,7 @@
 				9D0831141608E5270009C287 /* HomeworkTwoApp.cpp in Sources */,
 				9D0831151608E5270009C287 /* Shape.cpp in Sources */,
 				9D0831161608E5270009C287 /* ShapeList.cpp in Sources */,
+				9D963A0416105B96007D93FD /* Node.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
