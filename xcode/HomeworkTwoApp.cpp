@@ -20,100 +20,111 @@ class HomeworkTwoApp : public AppBasic {
 public:
 	void setup();
 	void mouseDown( MouseEvent event );
-    void keyDown ( KeyEvent event );
-    void mouseDrag( MouseEvent event );
-    void mouseMove( MouseEvent event );
-    void mouseWheel(MouseEvent event);
+	void keyDown(KeyEvent event);
+	void mouseDrag(MouseEvent event);
+	void mouseMove(MouseEvent event);
+	void mouseUp(MouseEvent event);
+	void mouseWheel(MouseEvent event);
 	void update();
 	void draw();
+	void prepareSettings(Settings* settings);
+    
 private:
-    ShapeList* list_;
-    ShapeList* groups_;
-    bool moving_;
-    int index_;
-    int mouse_x_;
-    int mouse_y_;
-    int radius_;
-    bool is_increasing_;
-    Shape* my_shape;
-    int random;
+	ShapeList* list_;
+
+	static const int kAppWidth=800;
+	static const int kAppHeight=600;
+	bool is_moving_circles_;
+	int index_; 
+	int mouse_x_;
+	int mouse_y_;
+	int radius_;
+	bool radius_is_increasing_;
+	Shape* mobile_circle;
+    
 };
+
+void HomeworkTwoApp::prepareSettings(Settings* settings){
+	settings->setWindowSize(kAppWidth,kAppHeight);
+	settings->setResizable(false);
+}
 
 void HomeworkTwoApp::setup()
 {
-    list_ = new ShapeList();
-    groups_ = new ShapeList();
-    moving_ = false;
-    is_increasing_ = false;
-    random = Rand::randInt(0, 100);
-    radius_ = random;
-    index_ = 1;
+	list_ = new ShapeList();
+	
+	is_moving_circles_ = false;
+	radius_is_increasing_ = false;
+	radius_ = 25;
+	index_ = 1;
 }
 
-void HomeworkTwoApp::mouseMove(MouseEvent event) {
-    mouse_x_ = event.getX();
-    mouse_y_ = event.getY();
-}
-
-void HomeworkTwoApp::mouseWheel(MouseEvent event ) {
-    if (is_increasing_)
-        radius_ += abs(event.getWheelIncrement());
-    else
-        radius_ -= abs(event.getWheelIncrement()) * 5;
+void HomeworkTwoApp::mouseMove(MouseEvent event){
     
-    if (radius_ < 1)
-        radius_ = 1;
+	mouse_x_ = event.getX();
+	mouse_y_ = event.getY();
+    
 }
 
-void HomeworkTwoApp::mouseDrag(MouseEvent event) {
-    if (event.isLeftDown() && moving_ && my_shape != NULL) {
-        mouseMove(event);
-        my_shape->move(mouse_x_, mouse_y_);
-    }
+//scrolling the mousewheel changes the radii of the
+//circles drawn. if you scroll with the shift button down
+//it decreases the radius.
+void HomeworkTwoApp::mouseWheel(MouseEvent event){
+	if(radius_is_increasing_)
+		radius_ += abs( event.getWheelIncrement());
+	else
+		radius_ -= abs( event.getWheelIncrement()) * 5;
+    
+	if(radius_ < 1)
+		radius_ = 1;
+}
+
+void HomeworkTwoApp::mouseDrag(MouseEvent event){
+    
+	if(event.isLeftDown() && is_moving_circles_ && mobile_circle != NULL){
+		mouseMove(event);
+		mobile_circle->move(mouse_x_, mouse_y_);
+	}
+    
+}
+
+void HomeworkTwoApp::mouseDown( MouseEvent event )
+{
+	if(is_moving_circles_){
+		mobile_circle = list_->getShapeAt(event.getX(),event.getY());
+	}
+	else if(event.isLeft()){
+		//create a new node at the end of the list.
         
-}
-
-void HomeworkTwoApp::mouseDown(MouseEvent event) {
-    if (moving_)
-        my_shape = list_->getShapeAt(event.getX(), event.getY());
-    else if (event.isLeft()) {
-        Node* new_node = new Node(index_);
-        new_node->data_ = new Shape(event.getX(), event.getY(), radius_);
+		Node* new_node = new Node(index_);
+		new_node->data_ = new Shape(event.getX(), event.getY(), radius_);
         
-        list_->insertAfter(new_node, list_->sentinel_);
-        index_++;
-    }
-    else if (event.isRight())
-        list_->bringToFront(event.getX(), event.getY());
+		list_->insertAfter(new_node, list_->sentinel_);
+		index_++;
+	}
+	else if(event.isRight())
+		list_->bringToFront(event.getX(),event.getY());
+	
 }
 
-void HomeworkTwoApp::keyDown(KeyEvent event) {
-    /*
-    switch(event.getChar()) {
+void HomeworkTwoApp::keyDown( KeyEvent event )
+{
+	switch(event.getChar()){
         case 'm':
-            moving_ = !moving_;
+            is_moving_circles_ = !is_moving_circles_;
             break;
         case 'r':
             list_->reverseOrder();
             break;
-        case 's':
-            if (my_shape != NULL)
-                my_shape->setChild();
-        case 'g':
-            is_increasing_ = !is_increasing_;
+        case 'a':
+            if(mobile_circle != NULL)
+                mobile_circle->setChild();
+        case 'i':
+            radius_is_increasing_ = !radius_is_increasing_;
         default:
             break;
-    }
-     */
-    if (event.getChar() == 'm')
-        moving_ = !moving_;
-    else if (event.getChar() == 'r')
-        list_->reverseOrder();
-    else if (event.getChar() == 's')
-        if (my_shape != NULL)
-            my_shape->setChild();
-    else if (event.getChar() == 'g')
-        is_increasing_ = !is_increasing_;
+            
+	}
 }
 
 void HomeworkTwoApp::update()
@@ -121,10 +132,16 @@ void HomeworkTwoApp::update()
     
 }
 
+void HomeworkTwoApp::mouseUp(MouseEvent event){
+    
+}
+
 void HomeworkTwoApp::draw()
 {
-    clear(Color(0,0,0));
-    list_->draw();
+	// clear out the window with black
+	gl::clear( Color( 0, 0, 0 ) );
+    
+	list_->draw();
     
 }
 

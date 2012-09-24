@@ -23,17 +23,18 @@ using namespace std;
 class Shape {
 public:
     Shape();
-    Shape(int x, int y, float mRad_);
+    Shape(int x, int y, int radius);
 	void draw();
     
     int x_;
     int y_;
-    float radius_;
+    int radius_;
     Color8u color_;
     
     int anchor_x_;
     int anchor_y_;
     int bound_;
+    Rand random;
     
     Shape* child_;
     
