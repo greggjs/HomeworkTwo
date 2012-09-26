@@ -18,6 +18,9 @@
     <ClCompile Include="..\src\HomeworkTwoApp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\Node.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="..\src\ShapeList.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -29,10 +32,16 @@
     <ClInclude Include="..\include\Resources.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\include\Node.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="..\include\ShapeList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\include\Shape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\HomeworkTwoApp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

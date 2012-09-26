@@ -23,18 +23,28 @@ using namespace std;
 class Shape {
 public:
     Shape();
-    Shape(Vec2f mLoc_, Vec2f mDir_, float mRad_);
-	void update();
+    Shape(int x, int y, int radius);
 	void draw();
     
-private:
-    Vec2f loc_;
-    Vec2f dir_;
-    float rad_;
-    Color color_;
-    float rand_red_;
-    float rand_green_;
-    float rand_blue_;
+    int x_;
+    int y_;
+    int radius_;
+    Color8u color_;
+    Color8u vis_color_;
+    float alpha_;
+    
+    int anchor_x_;
+    int anchor_y_;
+    int bound_;
+    Rand random;
+    
+    Shape* child_;
+    
+    Shape* findShapeWithPoint(int x, int y);
+    void setChild();
+    void removeChild();
+    void move(int x, int y);
+    void updateTint(float alpha);
 };
 
 #endif
