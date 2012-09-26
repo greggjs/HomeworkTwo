@@ -105,10 +105,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\src\HomeworkTwoApp.cpp" />
+    <ClCompile Include="..\src\Node.cpp" />
     <ClCompile Include="..\src\Shape.cpp" />
     <ClCompile Include="..\src\ShapeList.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\include\HomeworkTwoApp.h" />
+    <ClInclude Include="..\include\Node.h" />
     <ClInclude Include="..\include\Resources.h" />
     <ClInclude Include="..\include\Shape.h" />
     <ClInclude Include="..\include\ShapeList.h" />
